@@ -1,4 +1,4 @@
-import { addBook } from './addBookUI.js';
+import addBook from './addBookUI.js';
 
 const title = document.querySelector('#title');
 const author = document.querySelector('#author');

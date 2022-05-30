@@ -31,5 +31,5 @@ export {
   toggle,
   booksLibrary,
   form,
-  contact
+  contact,
 };

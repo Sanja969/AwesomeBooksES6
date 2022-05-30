@@ -1,10 +1,10 @@
-import { myLibrary } from '../index.js';
+import myLibrary from '../index.js';
 import colorCards from './colorCards.js';
-import { 
+import {
   toggle,
-  booksLibrary, 
-  form, 
-  contact 
+  booksLibrary,
+  form,
+  contact,
 } from './toggleTabs.js';
 
 const booksTable = document.querySelector('#booksTable');

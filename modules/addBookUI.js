@@ -1,4 +1,3 @@
-import myLibrary from '../index.js';
 import colorCards from './colorCards.js';
 import {
   toggle,
@@ -6,6 +5,8 @@ import {
   form,
   contact,
 } from './toggleTabs.js';
+
+const myLibrary = [];
 
 const booksTable = document.querySelector('#booksTable');
 
@@ -38,4 +39,7 @@ const addBook = (book, title, author) => {
   });
 };
 
-export default addBook;
+export {
+  myLibrary,
+  addBook,
+};

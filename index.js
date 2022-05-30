@@ -1,10 +1,12 @@
-import addBook from './modules/addBookUI.js';
+import {
+  myLibrary,
+  addBook,
+} from './modules/addBookUI.js';
 import Books from './modules/books.js';
 import { toggleTabs } from './modules/toggleTabs.js';
 import showCurrentTime from './modules/currentTime.js';
 
 const addBtn = document.querySelector('.add');
-const myLibrary = [];
 let storage = [];
 
 storage = JSON.parse(localStorage.getItem('books')) || [];
@@ -25,5 +27,3 @@ addBtn.addEventListener('click', (e) => {
   const book = new Books();
   book.add(myLibrary);
 });
-
-export default myLibrary;

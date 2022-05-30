@@ -13,14 +13,12 @@ class Books {
     myLibrary.push(this);
     addBook(this, title.value, author.value);
     localStorage.setItem('books', JSON.stringify(myLibrary));
-
   }
 
   remove(myLibrary) {
     myLibrary = myLibrary.filter((element) => element !== this);
     localStorage.setItem('books', JSON.stringify(myLibrary));
-    
   }
 }
 
-export { Books }
+export default Books;

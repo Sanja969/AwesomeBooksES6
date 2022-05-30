@@ -1,6 +1,11 @@
-import { myLibrary } from "../index.js";
-import { colorCards } from './colorCards.js';
-import { toggle, booksLibrary, form, contact } from './toggleTabs.js';
+import { myLibrary } from '../index.js';
+import colorCards from './colorCards.js';
+import { 
+  toggle,
+  booksLibrary, 
+  form, 
+  contact 
+} from './toggleTabs.js';
 
 const booksTable = document.querySelector('#booksTable');
 
@@ -31,6 +36,6 @@ const addBook = (book, title, author) => {
     book.remove(myLibrary);
     colorCards();
   });
-}
+};
 
-export { addBook };
+export default addBook;

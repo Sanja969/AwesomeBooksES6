@@ -1,4 +1,4 @@
-import { DateTime } from "../luxon.js";
+import { DateTime } from '../luxon.js';
 
 const showCurrentTime = () => {
   const time = document.querySelector('.time');
@@ -6,6 +6,6 @@ const showCurrentTime = () => {
   const f = DateTime.DATETIME_FULL_WITH_SECONDS;
   const date = now.setLocale('en-US').toLocaleString(f);
   time.textContent = date;
-}
+};
 
-export { showCurrentTime };
+export default showCurrentTime;

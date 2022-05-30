@@ -1,7 +1,7 @@
 import { addBook } from './modules/addBookUI.js';
-import { Books } from './modules/books.js';
+import Books from './modules/books.js';
 import { toggleTabs } from './modules/toggleTabs.js';
-import { showCurrentTime } from './modules/currentTime.js';
+import showCurrentTime from './modules/currentTime.js';
 
 const addBtn = document.querySelector('.add');
 let myLibrary = [];

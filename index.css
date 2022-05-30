@@ -1,0 +1,113 @@
+main {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  background-color: white;
+  width: 98% !important;
+  border: 2px solid black !important;
+  top: 10px;
+  left: 1%;
+  z-index: 5;
+}
+
+.nav-item {
+  border-right: 1px solid black;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+#booksTable {
+  border: 1px solid black;
+  width: 90%;
+}
+
+#newBook {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#addNewForm {
+  padding: 5px;
+}
+
+form h2 {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 !important;
+}
+
+input {
+  text-align: center;
+  margin: 10px 0 !important;
+  width: 100%;
+}
+
+.btn {
+  margin-left: 200px;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: green !important;
+}
+
+footer {
+  position: fixed;
+  width: 98%;
+  margin-left: 1%;
+  bottom: 10px;
+  background-color: white;
+  z-index: 5;
+}
+
+#contact {
+  display: none;
+  margin-bottom: 100px;
+  padding: 15px;
+  flex-direction: column;
+}
+
+#contact > h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#booksLibrary {
+  display: none;
+  margin-bottom: 100px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.bookText {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    border-right: none;
+  }
+
+  .bookText {
+    font-size: 15px;
+  }
+}

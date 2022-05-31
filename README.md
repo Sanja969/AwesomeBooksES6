@@ -2,7 +2,7 @@
 
 # Awesome books
 
-> This is an example of a web app for adding books to your own library. I as was using just javascript, HTML, and CSS, this has no backend and all books will disappear when the page is refreshed. I was using ES6 features like ES6 modules.
+> This is an example of a web app for adding books to your own library. I as was using just javascript, HTML, and CSS.
 
 
 ## Built With

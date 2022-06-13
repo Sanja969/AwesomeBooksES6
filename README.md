@@ -2,12 +2,12 @@
 
 # Awesome books
 
-> This is an example of a web app for adding books to your own library. I as was using just javascript, HTML, and CSS.
+> This is an example of a web app for adding books to your own library. Built with Javascript, HTML, and CSS.
 
 
 ## Built With
 
-- Language: HTML, javascript
+- Language: HTML, Javascript
 - Technologies: CSS, Linter, git, 
 
 
